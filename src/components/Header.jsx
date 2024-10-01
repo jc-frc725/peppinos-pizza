@@ -2,6 +2,15 @@ import { react } from 'react';
 
 export default function Header() {
     return (
-        <div>Hello, Local World</div>
+        <header>
+            <h1 className="site-title">Peppino's Pizza</h1>
+            <div id="nav">
+                <ul>
+                    <li>Welcome, Guest</li>
+                    <li>Sign In</li>
+                </ul> 
+            </div>
+        </header>
+        
     )
 }

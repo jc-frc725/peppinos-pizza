@@ -1,5 +1,22 @@
 $primary-background: #a878a8;
 
-body {
+:root {
     background-color: $primary-background;
+}
+
+header {
+    .site-title {
+        margin-inline: 0px;
+        margin-block: 0px;
+    }
+}
+
+#nav {
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    li {
+        list-style-type: none;
+    }
 }

@@ -1,7 +1,7 @@
 export default function Nav() {
     return (
         <nav id="nav">
-            <ul>
+            <ul className="nav-main">
                 <li>Pizza</li>
                 <li>Pasta</li>
                 <li>Put It</li>

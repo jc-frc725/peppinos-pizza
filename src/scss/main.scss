@@ -24,6 +24,7 @@ $primary-background: #a878a8;
 }
 
 header {
+    
     .site-title {
         margin-inline: 0px;
         margin-block: 0px;
@@ -31,19 +32,22 @@ header {
 }
 
 #nav {
-    ul {
-        display: flex;
-        justify-content: space-evenly;
-    }
     li {
         list-style-type: none;
-        padding: 1rem;
-        margin: 1vh;
+        padding: 0.5rem;
+        margin: 0.5vh 0;
+    }
+
+    .nav-main {
+        display: flex;
+        justify-content: space-evenly;
+
     }
 
     .nav-utils {
         display: flex;
         justify-content: space-around;
+        margin: 1vh 0;
     }
 }
 

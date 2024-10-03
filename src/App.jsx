@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="site-header-container">
         <Header />
         <Nav />
         <a href="https://vitejs.dev" target="_blank">
@@ -25,7 +25,7 @@ function App() {
       <h1>It's Pizza Time</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          pizza is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR

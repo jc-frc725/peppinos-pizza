@@ -4,6 +4,25 @@ $primary-background: #a878a8;
     background-color: $primary-background;
 }
 
+.site-header-container {
+    display: block;
+    position: relative;
+    top: 0px;
+    width: auto;
+    max-width: 1600px;
+    margin: 0px;
+
+    .header-main {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+
+        h1 {
+            margin-left: 1rem;
+        }
+    }
+}
+
 header {
     .site-title {
         margin-inline: 0px;
@@ -18,5 +37,18 @@ header {
     }
     li {
         list-style-type: none;
+        padding: 1rem;
+        margin: 1vh;
+    }
+
+    .nav-utils {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+footer {
+    p, .copyright-desc {
+        font-size: 0.8rem;
     }
 }

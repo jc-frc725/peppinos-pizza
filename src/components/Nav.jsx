@@ -1,6 +1,6 @@
 export default function Nav() {
     return (
-        <nav id="nav">
+        <nav id="nav" className="nav-menu">
             <ul className="nav-main">
                 <li>Pizza</li>
                 <li>Pasta</li>

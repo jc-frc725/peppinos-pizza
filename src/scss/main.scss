@@ -9,8 +9,7 @@ $primary-background: #a878a8;
     position: relative;
     top: 0px;
     width: auto;
-    max-width: 1600px;
-    margin: 0px;
+    margin: 0% 15%;
 
     .header-main {
         display: flex;
@@ -41,7 +40,7 @@ header {
     .nav-main {
         display: flex;
         justify-content: space-evenly;
-
+        padding: 0px;
     }
 
     .nav-utils {
@@ -49,6 +48,14 @@ header {
         justify-content: space-around;
         margin: 1vh 0;
     }
+}
+
+.nav-menu {
+    margin: 0px 12%;
+}
+
+.header-cart {
+    width: 6.5rem;
 }
 
 footer {

@@ -34,6 +34,8 @@
 }
 
 .card {
+  border: 5px black solid;
+  border-radius: 2px;
   padding: 2em;
 }
 

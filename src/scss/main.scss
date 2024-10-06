@@ -58,6 +58,24 @@ header {
     width: 6.5rem;
 }
 
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured-grid {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.featured-item-card {
+    padding: 10px;
+    flex: 1;
+    max-width: 33%;
+    height: 240px;
+}
+
 footer {
     p, .copyright-desc {
         font-size: 0.8rem;

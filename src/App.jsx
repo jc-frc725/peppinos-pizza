@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Featured from './components/Featured'
 import Footer from './components/Footer'
 import './App.css'
 import './scss/main.scss';
@@ -22,21 +23,20 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a> */}
       </div>
-      <h1>It's Pizza Time</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          pizza is {count === 69 ? "haha funni number" : count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test PIZZA
-        </p>
+      <div className="main-container">
+        <h1>It's Pizza Time</h1>
+        <div className="card">
+          <button onClick={() => setCount((count) => count + 1)}>
+            pizza is {count === 69 ? "haha funni number" : count}
+          </button>
+          <p>
+            Deals go here
+          </p>
+        </div>
+        <Featured />
+        <div>Make-a da pizza</div>
+        <Footer />
       </div>
-      <div>Featured</div>
-      <div>Make-a da pizza</div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <Footer />
     </>
   )
 }

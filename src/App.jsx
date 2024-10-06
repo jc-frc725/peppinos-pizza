@@ -30,7 +30,7 @@ function App() {
             pizza is {count === 69 ? "haha funni number" : count}
           </button>
           <p>
-            Deals go here
+            Deals / eyecatcher go here
           </p>
         </div>
         <Featured />

@@ -1,4 +1,7 @@
 # Peppino's Pizza
+A small frontend website based on the indie game, *Pizza Tower*.
+
+*Copyright of Pizza Tower belongs to Tour de Pizza.*
 
 ## React + Vite
 
